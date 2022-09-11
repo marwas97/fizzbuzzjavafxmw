@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="169.0" prefWidth="255.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fzibz.fizbuzmwController">
+   <children>
+      <Button fx:id="checkbutton" layoutX="104.0" layoutY="84.0" mnemonicParsing="false" onAction="#oncheckButtonClick" text="Check" />
+      <TextField fx:id="input" layoutX="54.0" layoutY="27.0" promptText="insert value" />
+      <Label fx:id="labelinfo" layoutX="45.0" layoutY="133.0" prefHeight="17.0" prefWidth="41.0" text="Result:" />
+      <Label fx:id="resultLabel" layoutX="90.0" layoutY="133.0" />
+   </children>
+</Pane>
